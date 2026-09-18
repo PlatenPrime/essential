@@ -6,6 +6,17 @@
 
 Автоматизированные шаги на изменение кода: lint, types, tests, build, security scan, deploy. Pipeline — контракт качества команды.
 
+## Схема
+
+```mermaid
+flowchart LR
+  change[Code_Change] --> verify[Verify]
+  verify --> build[Build]
+  build --> publish[Publish_Artifact]
+  publish --> deploy[Deploy]
+  deploy --> env[Preview_Stage_Prod]
+```
+
 ## Что нужно знать (80/20)
 
 - Stages: verify → build → publish → deploy
@@ -17,7 +28,9 @@
 
 ## Дочерние узлы
 
-Запланировано: stages, caching, migrations-in-ci, artifacts.
+- [stages](./stages/) — verify → build → publish → deploy; promote; миграции
+
+Запланировано: caching, migrations-in-ci, artifacts.
 
 ## Развилки
 
@@ -29,5 +42,7 @@
 ## Связанные узлы
 
 - Platforms: [platforms](../platforms/)
+- GitHub Actions: [platforms/github-actions](../platforms/github-actions/)
 - Testing: [06-quality/testing](../../06-quality/testing/)
 - Supply chain: [supply-chain](../supply-chain/)
+- Migrations: [03-data/data-access/migrations](../../03-data/data-access/migrations/)

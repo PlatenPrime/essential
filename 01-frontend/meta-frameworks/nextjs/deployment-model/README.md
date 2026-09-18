@@ -47,5 +47,7 @@ flowchart TB
 - Родитель Next.js: [../](../)
 - Хостинг: [../../../../04-infrastructure/hosting/](../../../../04-infrastructure/hosting/)
 - Containers: [../../../../04-infrastructure/containers/](../../../../04-infrastructure/containers/)
+- Docker: [../../../../04-infrastructure/containers/docker/](../../../../04-infrastructure/containers/docker/)
 - Preview/rollout: [../../../../05-cicd/preview-rollout/](../../../../05-cicd/preview-rollout/)
+- Pipeline stages: [../../../../05-cicd/pipeline/stages/](../../../../05-cicd/pipeline/stages/)
 - Request path: [../../../../00-system/request-path/](../../../../00-system/request-path/)

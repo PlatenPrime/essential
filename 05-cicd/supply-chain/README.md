@@ -29,4 +29,7 @@
 
 - Security: [06-quality/security](../../06-quality/security/)
 - Containers: [04-infrastructure/containers](../../04-infrastructure/containers/)
+- Dockerfile: [04-infrastructure/containers/docker/dockerfile](../../04-infrastructure/containers/docker/dockerfile/)
 - Pipeline: [pipeline](../pipeline/)
+- Stages: [pipeline/stages](../pipeline/stages/)
+- GitHub Actions: [platforms/github-actions](../platforms/github-actions/)

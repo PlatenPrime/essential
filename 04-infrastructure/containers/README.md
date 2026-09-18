@@ -17,8 +17,10 @@
 ## Дочерние узлы
 
 - [docker](./docker/)
+  - [dockerfile](./docker/dockerfile/) — слои, multi-stage, граница образа
+  - [compose](./docker/compose/) — локальный стек (канон Compose)
 
-Запланировано: image-design, registries, compose.
+Запланировано: image-design, registries.
 
 ## Развилки
 

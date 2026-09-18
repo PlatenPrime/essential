@@ -29,4 +29,5 @@
 ## Связанные узлы
 
 - Pipeline: [05-cicd/pipeline](../../05-cicd/pipeline/)
+- Stages (verify): [05-cicd/pipeline/stages](../../05-cicd/pipeline/stages/)
 - A11y: [01-frontend/accessibility](../../01-frontend/accessibility/)

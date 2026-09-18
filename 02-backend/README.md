@@ -21,6 +21,7 @@
 - [api-styles](./api-styles/) — REST, GraphQL, RPC
 - [service-boundaries](./service-boundaries/) — нарезка и границы
 - [auth](./auth/) — канон идентификации и авторизации на API
+  - [sessions](./auth/sessions/), [jwt](./auth/jwt/), [oauth-oidc](./auth/oauth-oidc/), [rbac-abac](./auth/rbac-abac/)
 - [async](./async/) — очереди, события, jobs
 
 ## Развилки
@@ -34,4 +35,5 @@
 
 - Стили системы: [00-system/architecture-styles](../00-system/architecture-styles/)
 - Данные: [03-data](../03-data/)
+- Data access: [03-data/data-access](../03-data/data-access/)
 - Identity продукт: [07-product-adjacent/identity](../07-product-adjacent/identity/)

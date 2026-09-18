@@ -11,13 +11,15 @@
 - Нормализация vs денормализация под read-модели
 - Aggregate / bounded context (хотя бы на уровне идей DDD)
 - Strong vs eventual consistency; где нужны транзакции
-- Миграции как продукт: expand/contract, backward compatibility
+- Миграции как продукт: expand/contract, backward compatibility — см. [data-access/migrations](../data-access/migrations/)
 - Идентификаторы: surrogate vs natural; UUID/ULID и индексы
 - Мягкое удаление, аудит, мультитенантность — заранее
 
 ## Дочерние узлы
 
-Запланировано: normalization, consistency, migrations-strategy, multi-tenancy.
+Запланировано: normalization, consistency, multi-tenancy.
+
+Стратегия миграций — канонически в [data-access/migrations](../data-access/migrations/).
 
 ## Развилки
 
@@ -29,5 +31,7 @@
 ## Связанные узлы
 
 - Relational: [relational](../relational/)
-- Boundaries: [02-backend/service-boundaries](../../02-backend/service-boundaries/)
 - Data access: [data-access](../data-access/)
+- Migrations: [data-access/migrations](../data-access/migrations/)
+- Transactions: [data-access/transactions](../data-access/transactions/)
+- Boundaries: [02-backend/service-boundaries](../../02-backend/service-boundaries/)

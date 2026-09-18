@@ -28,5 +28,6 @@
 ## Связанные узлы
 
 - Postgres: [relational/postgres](../relational/postgres/)
+- Replication (read scale): [relational/postgres/replication](../relational/postgres/replication/)
 - Networking/CDN: [04-infrastructure/networking](../../04-infrastructure/networking/)
 - Frontend data cache: [01-frontend/data-fetching](../../01-frontend/data-fetching/)

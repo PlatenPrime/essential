@@ -6,6 +6,18 @@
 
 Де-факто инструмент сборки и локального запуска контейнеров. Понимать Docker-модель важнее синтаксиса всех флагов `run`.
 
+## Схема
+
+```mermaid
+flowchart LR
+  dockerfile[Dockerfile] --> image[Image]
+  image --> registry[Registry]
+  image --> container[Container]
+  compose[Compose] --> container
+  compose --> db[DB_Redis_Sidecars]
+  container --> volumes[Volumes_Networks]
+```
+
 ## Что нужно знать (80/20)
 
 - Image / container / volume / network
@@ -17,7 +29,8 @@
 
 ## Дочерние узлы
 
-Запланировано: dockerfile, compose, multi-stage.
+- [dockerfile](./dockerfile/) — слои, multi-stage, non-root, граница образа
+- [compose](./compose/) — локальный стек; dev mount vs prod image
 
 ## Развилки
 
@@ -30,3 +43,5 @@
 
 - Containers: [containers](../)
 - CI build: [05-cicd/pipeline](../../../05-cicd/pipeline/)
+- Supply chain: [05-cicd/supply-chain](../../../05-cicd/supply-chain/)
+- Hosting: [../../hosting/](../../hosting/)

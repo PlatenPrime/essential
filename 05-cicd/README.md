@@ -18,7 +18,9 @@
 
 - [git-flow](./git-flow/)
 - [pipeline](./pipeline/)
+  - [stages](./pipeline/stages/) — verify → build → publish → deploy
 - [platforms](./platforms/)
+  - [github-actions](./platforms/github-actions/) — дефолт 2026 для GitHub
 - [preview-rollout](./preview-rollout/)
 - [gitops](./gitops/)
 - [supply-chain](./supply-chain/)
@@ -34,3 +36,4 @@
 
 - Environments: [04-infrastructure/environments](../04-infrastructure/environments/)
 - Quality gates: [06-quality/testing](../06-quality/testing/)
+- Docker: [04-infrastructure/containers/docker](../04-infrastructure/containers/docker/)

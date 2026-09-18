@@ -29,5 +29,7 @@
 ## Связанные узлы
 
 - Preview/rollout: [05-cicd/preview-rollout](../../05-cicd/preview-rollout/)
+- Pipeline stages: [05-cicd/pipeline/stages](../../05-cicd/pipeline/stages/)
+- Compose (local parity): [containers/docker/compose](../containers/docker/compose/)
 - Feature flags: [07-product-adjacent/feature-flags](../../07-product-adjacent/feature-flags/)
 - IaC: [iac](../iac/)

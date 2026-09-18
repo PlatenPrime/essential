@@ -9,7 +9,7 @@
 ## Что нужно знать (80/20)
 
 - Ключи, индексы, JOIN, транзакции и уровни изоляции (на уровне решений)
-- Миграции схемы; downtime vs online migrations
+- Миграции схемы; downtime vs online — см. [data-access/migrations](../data-access/migrations/)
 - Connection pooling; read replicas и их consistency
 - JSONB и расширения — сила Postgres, не повод игнорировать реляцию
 - MySQL/MariaDB и облачные ветвления (PlanetScale и аналоги) — отдельные ветки экосистемы
@@ -17,8 +17,13 @@
 ## Дочерние узлы
 
 - [postgres](./postgres/) — де-факто system of record
+  - [indexing](./postgres/indexing/) — планы, типы индексов
+  - [replication](./postgres/replication/) — replicas, lag, failover
+  - [extensions](./postgres/extensions/) — PostGIS, pgvector, FTS
 
-Запланировано: mysql, migrations, indexing.
+Запланировано: mysql.
+
+Миграции схемы — канонически в [data-access/migrations](../data-access/migrations/).
 
 ## Развилки
 

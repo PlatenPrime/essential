@@ -19,6 +19,7 @@
 - [networking](./networking/)
 - [hosting](./hosting/)
 - [containers](./containers/)
+  - [docker](./containers/docker/) — [dockerfile](./containers/docker/dockerfile/), [compose](./containers/docker/compose/)
 - [orchestration](./orchestration/)
 - [iac](./iac/)
 - [environments](./environments/)

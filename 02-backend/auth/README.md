@@ -6,6 +6,20 @@
 
 **Каноническое место** темы auth на уровне API: кто пользователь, что ему можно. Продуктовый IdP/SSO — см. product-adjacent/identity; здесь — серверные механики.
 
+## Схема
+
+```mermaid
+flowchart LR
+  client[Client] --> edge[API_Boundary]
+  edge --> authn[Authentication]
+  authn --> sessions[Session_Cookie]
+  authn --> tokens[JWT_or_Opaque]
+  authn --> oidc[OAuth_OIDC]
+  edge --> authz[Authorization]
+  authz --> rbac[RBAC_ABAC]
+  authz --> resource[Protected_Resource]
+```
+
 ## Что нужно знать (80/20)
 
 - Authentication ≠ Authorization
@@ -17,7 +31,10 @@
 
 ## Дочерние узлы
 
-Запланировано: sessions, jwt, oauth-oidc, rbac-abac.
+- [sessions](./sessions/) — cookie-сессии, store, отзыв, CSRF/SameSite
+- [jwt](./jwt/) — bearer, claims, refresh/rotation, отзыв vs TTL
+- [oauth-oidc](./oauth-oidc/) — роли AS / RS / Client; OIDC login
+- [rbac-abac](./rbac-abac/) — роли vs атрибуты; граница API vs домен
 
 ## Развилки
 
@@ -31,3 +48,4 @@
 - Identity (продукт): [07-product-adjacent/identity](../../07-product-adjacent/identity/)
 - Security: [06-quality/security](../../06-quality/security/)
 - Browser cookies: [01-frontend/browser-platform](../../01-frontend/browser-platform/)
+- Backend: [../](../)

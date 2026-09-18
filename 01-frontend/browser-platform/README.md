@@ -29,5 +29,6 @@
 ## Связанные узлы
 
 - Auth (канон): [02-backend/auth](../../02-backend/auth/)
+- Sessions (cookies): [02-backend/auth/sessions](../../02-backend/auth/sessions/)
 - Сеть infra: [04-infrastructure/networking](../../04-infrastructure/networking/)
 - Security: [06-quality/security](../../06-quality/security/)

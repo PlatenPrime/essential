@@ -29,6 +29,8 @@
 ## Связанные узлы
 
 - Containers: [containers](../containers/)
+- Docker: [containers/docker](../containers/docker/)
 - Meta-frameworks: [01-frontend/meta-frameworks](../../01-frontend/meta-frameworks/)
 - Next deployment-model: [01-frontend/meta-frameworks/nextjs/deployment-model](../../01-frontend/meta-frameworks/nextjs/deployment-model/)
 - Preview deploys: [05-cicd/preview-rollout](../../05-cicd/preview-rollout/)
+- Pipeline stages: [05-cicd/pipeline/stages](../../05-cicd/pipeline/stages/)

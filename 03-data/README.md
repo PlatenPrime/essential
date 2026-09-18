@@ -10,7 +10,7 @@
 
 - Сначала **access patterns** и consistency, потом бренд БД
 - OLTP vs OLAP; operational DB ≠ warehouse
-- Транзакции, изоляции, миграции схемы — часть продукта
+- Транзакции, изоляции — см. [data-access/transactions](./data-access/transactions/); миграции схемы — [data-access/migrations](./data-access/migrations/)
 - Кэш — не источник истины; инвалидация сложнее записи
 - Полиглот persistence оправдан разными нагрузками, не модой
 
@@ -18,12 +18,14 @@
 
 - [modeling](./modeling/) — моделирование и consistency
 - [relational](./relational/) — SQL / Postgres
+  - [postgres](./relational/postgres/) — SoR: [indexing](./relational/postgres/indexing/), [replication](./relational/postgres/replication/), [extensions](./relational/postgres/extensions/)
 - [document](./document/) — документные СУБД
 - [cache](./cache/) — Redis и кэш-слои
 - [search](./search/) — полнотекст и search engines
 - [analytics](./analytics/) — OLAP / warehouse
 - [vectors](./vectors/) — embeddings / semantic search
 - [data-access](./data-access/) — ORM, SQL, миграции
+  - [orm-vs-sql](./data-access/orm-vs-sql/), [migrations](./data-access/migrations/), [transactions](./data-access/transactions/)
 
 ## Развилки
 

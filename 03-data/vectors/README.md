@@ -28,4 +28,5 @@
 ## Связанные узлы
 
 - Postgres: [relational/postgres](../relational/postgres/)
+- Extensions (pgvector): [relational/postgres/extensions](../relational/postgres/extensions/)
 - AI-фичи: [07-product-adjacent/ai-features](../../07-product-adjacent/ai-features/)

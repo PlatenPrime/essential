@@ -29,3 +29,4 @@
 
 - Async sync: [02-backend/async](../../02-backend/async/)
 - Postgres: [relational/postgres](../relational/postgres/)
+- Extensions (FTS): [relational/postgres/extensions](../relational/postgres/extensions/)

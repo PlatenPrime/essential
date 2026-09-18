@@ -29,5 +29,6 @@
 ## Связанные узлы
 
 - Auth: [02-backend/auth](../../02-backend/auth/)
+- Sessions / JWT: [02-backend/auth/sessions](../../02-backend/auth/sessions/), [02-backend/auth/jwt](../../02-backend/auth/jwt/)
 - Supply chain: [05-cicd/supply-chain](../../05-cicd/supply-chain/)
 - Browser platform: [01-frontend/browser-platform](../../01-frontend/browser-platform/)
