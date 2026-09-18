@@ -30,3 +30,4 @@
 - API: [02-backend/api-styles](../../02-backend/api-styles/)
 - State: [state](../state/)
 - Рендер: [rendering](../rendering/)
+- Next data-caching: [meta-frameworks/nextjs/data-caching](../meta-frameworks/nextjs/data-caching/)

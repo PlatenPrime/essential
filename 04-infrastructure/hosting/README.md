@@ -30,4 +30,5 @@
 
 - Containers: [containers](../containers/)
 - Meta-frameworks: [01-frontend/meta-frameworks](../../01-frontend/meta-frameworks/)
+- Next deployment-model: [01-frontend/meta-frameworks/nextjs/deployment-model](../../01-frontend/meta-frameworks/nextjs/deployment-model/)
 - Preview deploys: [05-cicd/preview-rollout](../../05-cicd/preview-rollout/)

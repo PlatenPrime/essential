@@ -15,7 +15,9 @@
 
 ## Дочерние узлы
 
-Запланировано: nextjs, nuxt, sveltekit, remix, astro, tanstack-start.
+- [nextjs](./nextjs/) — де-факто meta для React: App Router, RSC, деплой
+
+Запланировано: nuxt, sveltekit, remix, astro, tanstack-start.
 
 ## Развилки
 

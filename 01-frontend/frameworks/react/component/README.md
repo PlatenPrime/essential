@@ -20,7 +20,11 @@
 
 ## Дочерние узлы
 
-Запланировано (без папок): composition, controlled-inputs, server-client-boundary, testing-components.
+- [composition](./composition/) — сборка UI из частей, slots, границы ответственности
+- [server-client-boundary](./server-client-boundary/) — где Server Component, где client island
+- [controlled-inputs](./controlled-inputs/) — кто владеет значением поля формы
+
+Запланировано (без папок): testing-components.
 
 ## Развилки
 

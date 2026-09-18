@@ -29,5 +29,6 @@
 ## Связанные узлы
 
 - Мета-фреймворки: [meta-frameworks](../meta-frameworks/)
+- Next.js: [meta-frameworks/nextjs](../meta-frameworks/nextjs/)
 - Путь запроса: [00-system/request-path](../../00-system/request-path/)
 - Perf: [performance](../performance/)

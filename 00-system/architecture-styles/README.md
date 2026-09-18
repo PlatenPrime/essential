@@ -6,6 +6,27 @@
 
 Как нарезаны **границы** системы: один деплой или много, синхронные вызовы или события, общий ли процесс. Стиль задаёт операционную модель сильнее, чем выбор фреймворка.
 
+## Схема
+
+```mermaid
+flowchart TB
+  subgraph monolith [Monolith]
+    mApp[OneDeploy_SharedCode]
+  end
+  subgraph modular [ModularMonolith]
+    modA[ModuleA] --> modCore[SharedKernel]
+    modB[ModuleB] --> modCore
+    modDeploy[OneDeploy]
+  end
+  subgraph services [Microservices]
+    svcA[ServiceA] -->|network| svcB[ServiceB]
+    svcA --> dbA[DbA]
+    svcB --> dbB[DbB]
+  end
+  monolith -.->|harden boundaries| modular
+  modular -.->|split deploy| services
+```
+
 ## Что нужно знать (80/20)
 
 - **Monolith** — один деплой, общие границы в коде

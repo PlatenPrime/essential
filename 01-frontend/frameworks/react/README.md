@@ -18,8 +18,11 @@
 ## Дочерние узлы
 
 - [component](./component/) — эталонный лист: что знать о компоненте
+- [hooks](./hooks/) — переиспользование логики: state, effects, кастомные хуки
+- [context](./context/) — проброс зависимостей без prop drilling
+- [patterns](./patterns/) — compound, controlled API, headless
 
-Запланировано (без папок пока): hooks, context, concurrent/features, patterns (compound, controlled).
+Запланировано (без папок пока): concurrent/features.
 
 ## Развилки
 

@@ -6,6 +6,28 @@
 
 Общая модель: из каких слоёв состоит веб-приложение, как проходит запрос, какие стили архитектуры существуют и какими атрибутами качества меряют решения. Без этой карты остальные разделы — список технологий без контекста.
 
+## Схема
+
+```mermaid
+flowchart TB
+  system[00-system]
+  system --> frontend[01-frontend]
+  system --> backend[02-backend]
+  system --> data[03-data]
+  system --> infra[04-infrastructure]
+  system --> cicd[05-cicd]
+  system --> quality[06-quality]
+  system --> product[07-product-adjacent]
+  frontend --> backend
+  backend --> data
+  infra --> frontend
+  infra --> backend
+  cicd --> infra
+  quality --> frontend
+  quality --> backend
+  quality --> data
+```
+
 ## Что нужно знать (80/20)
 
 - Веб-проект — это **система слоёв**, а не «фронт + бек»

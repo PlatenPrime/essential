@@ -6,6 +6,29 @@
 
 Каноническая картинка «что происходит, когда пользователь нажал кнопку»: от клиента до хранилища и обратно. Это общий язык для фронта, бека, данных и инфраструктуры.
 
+## Схема
+
+```mermaid
+sequenceDiagram
+  participant Browser
+  participant DNS
+  participant Edge as CDN_Edge
+  participant App as App_SSR
+  participant API
+  participant DB as DB_Cache
+
+  Browser->>DNS: resolve host
+  DNS-->>Browser: IP
+  Browser->>Edge: HTTPS request
+  Edge->>App: forward
+  App->>API: business call
+  API->>DB: read_write
+  DB-->>API: rows
+  API-->>App: payload
+  App-->>Edge: HTML_JSON
+  Edge-->>Browser: response
+```
+
 ## Что нужно знать (80/20)
 
 - Типичная цепочка: DNS → CDN/edge → load balancer → app/SSR → API → DB/cache → ответ

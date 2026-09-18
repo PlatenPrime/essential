@@ -54,6 +54,7 @@ essential/
     - [`solid/`](01-frontend/frameworks/solid/)
     - [`html-first/`](01-frontend/frameworks/html-first/)
   - [`meta-frameworks/`](01-frontend/meta-frameworks/)
+    - [`nextjs/`](01-frontend/meta-frameworks/nextjs/)
   - [`ui/`](01-frontend/ui/)
   - [`state/`](01-frontend/state/)
   - [`data-fetching/`](01-frontend/data-fetching/)
@@ -122,5 +123,7 @@ essential/
 См. развилки внутри каждого слоя — там карта альтернатив.
 
 ## Дальше
+
+Трекинг наполнения: [`PROGRESS.md`](PROGRESS.md).
 
 Когда карта узла перестанет хватать для архитектурного выбора — добавляй `GUIDE.md` и при необходимости `examples/` по правилам из [`CONVENTIONS.md`](CONVENTIONS.md).
